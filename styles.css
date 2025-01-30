@@ -1,0 +1,287 @@
+@font-face {
+    font-family: 'fuente';
+    src: url(fuente/static/Lexend-Bold.ttf);
+    /*Esto de @font-face se usa para cargar una fuente que nosotros hayamos descargado. Despues le decimos como se llama la fuente y la ruta de ubicacion */
+}
+body{
+    width: 100%;
+    font-family:fuente;
+}
+#header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+#nav{
+    height: 30px;
+    width: 100%;
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+#main{
+    background-color: ;
+    height: 800px;
+    width: 100%;
+    display:flex;
+}
+#footer{
+    background-color: purple;
+    height: 150px;
+    width: 100%;
+}
+li{
+    display: inline-block; 
+    /*Esto hace que los elementos aparezcan siempre uno al lado del otro*/
+    padding-bottom: 20px;
+    margin: 250px;
+    font-size: 25px;
+    /* text-shadow: 4px 4px 0px black; */
+    /*Text shadow sirve para ponerle una sombra al texto, el primer parametro lo ponemos para decirle que va hacia la derecha (siempre tenemos
+    que poner algun parametro si no no aparecera, el segundo parametro que es para la sombra hacia abajo, el tercero difumina la sombra
+    por ultimo ponemos el color */
+}
+li:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#personal {
+    width: 700px;
+    height: 700px;
+    margin-left: 100px;
+    margin-top: 60px;
+    border-radius: 60px;
+}
+#nombre{
+    display: inline-block;
+    position: relative;
+    margin-top: 250px;
+    margin-left: 100px;
+    font-size: 82px;
+}
+#web{
+    display: inline-block;
+    position: relative;
+    margin-top: 0px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: rgb(231, 57, 57);
+}
+#presentacion{
+    font-size: 13px;
+    width: 900px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+#contenedor {
+        display: flex; /* Esto hace que los elementos dentro del contenedor estén en fila */
+        align-items: center;
+        width:100%;
+}
+#pc{
+    width: 700px;
+    height: 500px;
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 60px;
+}
+#partedos{
+    margin-left: 150px;
+    margin-top: 0px;
+    position: relative;
+}
+#sobremi{
+    margin-top: 0px;
+    margin-left: 200px;
+    font-size: 30px;
+    color:  rgb(231, 57, 57);
+}
+#tocho{
+    font-size: 13px;
+    width: 600px;
+}
+#tercero{
+    margin-top: 100px;
+}
+#habilidades, #contacto{
+    font-size: 30px;
+    color:  rgb(231, 57, 57);
+    margin-top: 20px;
+    display: flex; /* Hacer que los elementos sean flexibles y estén alineados en una fila */
+    justify-content: space-evenly; /* Asegura que haya el mismo espacio entre los 3 divs */
+    align-items: center;
+}
+#undostres, #cuatrocincoseis {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Espacios iguales entre los divs */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* Estilo común para los divs */
+#uno, #dos, #tres, #cuatro, #cinco, #seis {
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex; /* Flexbox interno para centrar contenido */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+    flex-direction: column;
+}
+
+#iconos {
+    height: 70px;
+    width: 70px;
+}
+.iconodos{
+    margin-top: 35px;
+}
+#hparrafos{
+    width: 350px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 13px;
+}
+#cuatrocincoseis{
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Espacios iguales entre los divs */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+#cuatro, #cinco, #seis{
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#boton {
+    display: flex;            
+    align-items: center;      
+    justify-content: center; 
+}
+#boton1{
+    width: 200px;
+    height: 80px;
+    font-family: fuente;
+    margin-top: 60px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: white;
+}
+#contacto{
+    display: flex;            
+    align-items: center;      
+    justify-content: center; 
+    margin-top: 70px;
+
+}
+#raton{
+    width: 550px;
+    height: 450px;
+    margin-right: 90px;
+    margin-left: 100px;
+}
+#formulario{
+    height: 700px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;  
+    margin-top: 40px;
+    padding-top: 0px;
+}
+form{
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    border-radius: 20px;
+    display: flex;            
+    flex-direction: column;
+    padding-top: 0px;
+    background-color: white;
+}
+#fnombre, #fapellidos, #femail{
+    margin-top: 40px;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    margin-left: 40px;
+    border-radius: 20px;
+    font-family: fuente;
+}
+#fmensaje{
+    margin-top: 40px;
+    width: 300px;
+    height: 200px;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+    padding-left: 15px;
+    padding-top: 7px;
+    font-family: fuente;
+} 
+#benviar{
+    width: 200px;
+    height: 60px;
+    font-family: fuente;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: white;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+#sketch{
+    width: 550px;
+    height: 500px;
+    margin-left: 100px;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    height: 80px;
+}
+#ficonos{
+    width: 50px;
+    height: 50px;
+    margin-right: 50px;
+}
+#boton1:hover{
+    background-color: rgb(236, 86, 86);
+}
+#benviar:hover{
+    background-color: rgb(236, 86, 86);
+}
+#pcontenedores{
+    background-color: red;
+}
+.dd{
+    width: 90%;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.dcontenedores{
+    display: inline-block;
+    width: 530px;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+}
