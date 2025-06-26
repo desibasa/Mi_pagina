@@ -4,7 +4,7 @@
     /*Esto de @font-face se usa para cargar una fuente que nosotros hayamos descargado. Despues le decimos como se llama la fuente y la ruta de ubicacion */
 }
 body{
-    width: 100%;
+    width: 1200px;
     font-family:fuente;
 }
 #header{
@@ -23,6 +23,12 @@ body{
     display: flex;
     align-items: center;
     margin-top: 0px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.lista{
+    flex-direction: row;
+    display: flex;
 }
 #main{
     height: 800px;
@@ -109,6 +115,9 @@ a{
 }
 #tercero{
     margin-top: 100px;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
 }
 #habilidades, #contacto{
     font-size: 30px;
